@@ -1,0 +1,41 @@
+Arguments: 
+  /usr/bin/node /usr/bin/yarn add quizmate_ui
+
+PATH: 
+  /home/raytracer/.local/bin:/usr/hla:/home/raytracer/.local/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/lib/jvm/default/bin:/opt/oracle/product/18c/dbhomeXE/bin:/home/raytracer/.local/bin/.scripts/make_arch_wall:/home/raytracer/.local/bin/.scripts/python_scripts:/home/raytracer/.local/bin/.scripts/some-random:/home/raytracer/.local/bin/.scripts/fdsa:/home/raytracer/.local/bin/.scripts/cron_scripts:/home/raytracer/.local/bin/.scripts/mshscripts:/home/raytracer/.local/bin/.scripts/audio_setup:/home/raytracer/.local/bin/.scripts/:/home/raytracer/.local/bin/.npm_packages/bin:/home/raytracer/.gem/ruby/2.7.0/bin:/home/raytracer/.cargo/bin:/home/raytracer/Downloads/golib/bin:/opt/oracle/product/18c/dbhomeXE/bin:/home/raytracer/.local/share/nvim/lsp_servers/jdtls/bin:/home/raytracer/.fzf/bin:/usr/lib/jvm/default/bin:/opt/oracle/product/18c/dbhomeXE/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.16.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/quizmate_ui: Not found
+      at Request.params.callback [as _callback] (/usr/lib/node_modules/yarn/lib/cli.js:66145:18)
+      at Request.self.callback (/usr/lib/node_modules/yarn/lib/cli.js:140890:22)
+      at Request.emit (node:events:527:28)
+      at Request.<anonymous> (/usr/lib/node_modules/yarn/lib/cli.js:141862:10)
+      at Request.emit (node:events:527:28)
+      at IncomingMessage.<anonymous> (/usr/lib/node_modules/yarn/lib/cli.js:141784:12)
+      at Object.onceWrapper (node:events:641:28)
+      at IncomingMessage.emit (node:events:539:35)
+      at endReadableNT (node:internal/streams/readable:1345:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "frontend",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
